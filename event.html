@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Career Day</title>
+  <style>
+    :root {
+      --ink: #182442;
+      --muted: #596681;
+      --purple: #635bdb;
+      --mint: #c9f4df;
+      --yellow: #ffdc70;
+      --paper: #fff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 36px 18px;
+      display: grid;
+      place-items: center;
+      color: var(--ink);
+      background: #f3f1ff;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    main {
+      width: min(100%, 900px);
+      overflow: hidden;
+      border-radius: 28px;
+      background: var(--paper);
+      box-shadow: 0 24px 70px rgba(39, 35, 97, .15);
+    }
+    .hero {
+      position: relative;
+      padding: clamp(32px, 7vw, 68px);
+      background: var(--purple);
+      color: white;
+    }
+    .hero::after {
+      position: absolute;
+      top: -58px;
+      right: -38px;
+      width: 230px;
+      height: 230px;
+      border: 36px solid rgba(201, 244, 223, .22);
+      border-radius: 50%;
+      content: "";
+    }
+    .tag {
+      display: inline-block;
+      margin: 0 0 22px;
+      padding: 8px 13px;
+      border-radius: 999px;
+      background: var(--mint);
+      color: var(--ink);
+      font-size: .85rem;
+      font-weight: 700;
+    }
+    h1 { position: relative; z-index: 1; margin: 0; font-size: clamp(2.5rem, 8vw, 5rem); line-height: 1; letter-spacing: -.04em; }
+    .audience { position: relative; z-index: 1; margin: 18px 0 0; font-size: 1.1rem; }
+    .content { padding: clamp(24px, 5vw, 48px); }
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-bottom: 30px;
+    }
+    .highlight { min-height: 142px; padding: 20px; border-radius: 18px; background: #f0efff; }
+    .highlight:nth-child(2) { background: #e8faf1; }
+    .highlight:nth-child(3) { background: #fff5d8; }
+    .label { display: block; margin-bottom: 13px; color: var(--muted); font-size: .82rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; }
+    .value { font-size: clamp(1.15rem, 3vw, 1.55rem); font-weight: 800; line-height: 1.25; }
+    .details { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .detail { padding: 17px 19px; border: 1px solid #e9eaf1; border-radius: 14px; }
+    .detail .label { margin-bottom: 6px; }
+    .detail strong { font-size: 1.05rem; }
+    @media (max-width: 620px) {
+      .highlights { grid-template-columns: 1fr; }
+      .highlight { min-height: auto; }
+      .details { grid-template-columns: 1fr; }
+      .hero::after { width: 150px; height: 150px; top: -50px; right: -55px; border-width: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <p class="tag">Sinh viên đại học</p>
+      <h1>AI Career Day</h1>
+    </header>
+    <section class="content" aria-label="Thông tin sự kiện">
+      <div class="highlights">
+        <div class="highlight">
+          <span class="label">Ngày</span>
+          <span class="value">15 tháng 10 năm 2026</span>
+        </div>
+        <div class="highlight">
+          <span class="label">Thời gian</span>
+          <span class="value">14:00–16:00</span>
+        </div>
+        <div class="highlight">
+          <span class="label">Hạn đăng ký</span>
+          <span class="value">10 tháng 10</span>
+        </div>
+      </div>
+      <div class="details">
+        <div class="detail"><span class="label">Địa điểm</span><strong>Hội trường B</strong></div>
+        <div class="detail"><span class="label">Chi phí</span><strong>Miễn phí</strong></div>
+      </div>
+    </section>
+  </main>
+  <div style="text-align:center; margin:32px 0;">
+    <a href="home.html" style="display:inline-block; padding:12px 20px; border-radius:12px; background:#526b83; color:#fff; font:600 16px 'Segoe UI',Arial,sans-serif; text-decoration:none;">Quay lại Trang Chủ</a>
+  </div>
+</body>
+</html>
+

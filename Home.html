@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trang chủ | Võ Hữu Tài</title>
+  <style>
+    :root { --ink: #253047; --muted: #647187; --accent: #526b83; --paper: #fff; }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 28px 18px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(145deg, #eaf0f1, #f5f3ee);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    main {
+      width: min(100%, 760px);
+      padding: clamp(30px, 7vw, 58px);
+      border: 1px solid rgba(37, 48, 71, .08);
+      border-radius: 24px;
+      background: var(--paper);
+      box-shadow: 0 22px 60px rgba(37, 48, 71, .11);
+      text-align: center;
+    }
+    h1 { max-width: 620px; margin: 0 auto; font-size: clamp(2rem, 6vw, 3.15rem); line-height: 1.18; }
+    p { margin: 16px 0 32px; color: var(--muted); font-size: 1.1rem; }
+    nav { display: grid; gap: 14px; }
+    a {
+      display: block;
+      padding: 19px 22px;
+      border: 1px solid #dce4e9;
+      border-radius: 14px;
+      background: #f7f9fa;
+      color: var(--accent);
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background .18s ease, transform .18s ease, border-color .18s ease;
+    }
+    a:hover, a:focus-visible { transform: translateY(-2px); border-color: #b9c9d3; background: #edf3f5; }
+    a:focus-visible { outline: 3px solid #8ba8b8; outline-offset: 3px; }
+    .home-return { margin-top: 24px; padding: 10px 16px; display: inline-block; font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Chào mừng đến với trang web của Võ Hữu Tài.</h1>
+    <p>Hãy chọn một trang để khám phá.</p>
+    <nav aria-label="Các trang">
+      <a href="V%C3%B5%20H%E1%BB%AFu%20T%C3%A0i.html">Giới thiệu về tôi</a>
+      <a href="event.html">Sự kiện</a>
+      <a href="study_plan.html">Bản kế hoạch học tập</a>
+    </nav>
+    <a class="home-return" href="Home.html">Quay lại trang chủ</a>
+  </main>
+</body>
+</html>
+
+

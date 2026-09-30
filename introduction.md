@@ -1,0 +1,4 @@
+- Họ và tên: Võ Hữu Tài
+- Chuyên ngành: Truyền Thông Số
+- Kỹ năng: Ham học hỏi, chơi game
+- Mục tiêu nghề nghiệp: Tổ chức sự kiện, quay phim, chụp ảnh

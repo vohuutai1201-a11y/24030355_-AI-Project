@@ -1,0 +1,7 @@
+- Tên sự kiện: AI Career Day
+- Đối tượng: Sinh viên đại học
+- Ngày: 15 tháng 10 năm 2026
+- Thời gian: 14:00–16:00
+- Địa điểm: Hội trường B
+- Chi phí: Miễn phí
+- Hạn đăng ký: 10 tháng 10
